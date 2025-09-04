@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <a th:href="@{/}" href="#">Home</a>
+        <form th:action="@{/logout}" method="post">
+            <input type="submit" value="Sign Out">
+        </form>
+    </head>
+    <meta charset="UTF-8">
+    <title>
+        Employee Data
+    </title>
+    <body>
+        <table>
+            <tr>
+                <th>Employee Name </th>
+                <th>Employee Gender </th>
+            </tr>
+            <tr th:each="emp:${emp}">
+                <td th:text="${emp.name}"> Name</td>
+                <td th:text="${emp.gender}"> Gender</td>
+
+            </tr>
+        </table>
+    </body>
+</html>

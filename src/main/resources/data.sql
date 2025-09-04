@@ -1,0 +1,2 @@
+INSERT INTO Employees (id, emp_name, gender) VALUES ('9cfd2916-90b3-4965-8a7d-3f4043e4f583', 'Divya V', 'Female');
+INSERT INTO Employees (id, emp_name, gender) VALUES ('9cfd2916-90b3-4965-8a7d-3f4043e4f593', 'Murali A', 'Male');
